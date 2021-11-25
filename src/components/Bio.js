@@ -28,7 +28,7 @@ class Bio extends React.Component {
           fontSize: rhythm(0.7)
         }}>
           Personal blog by{' '}
-          <a href="https://Arvin.me">Arvin Mostafaei</a>.{' '}
+          <a href="https://arvin.vercel.app">Arvin Mostafaei</a>.{' '}
           I&nbsp;explain with words and code.
         </p>
       </div>
