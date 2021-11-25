@@ -169,7 +169,7 @@ module.exports = {
         short_name: `helka`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#0F2C67`,
+        theme_color: `#ffa7c4`,
         display: `minimal-ui`,
         icon: `src/assets/icon.png`,
         theme_color_in_head: false,
