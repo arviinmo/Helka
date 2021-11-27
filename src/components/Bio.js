@@ -8,24 +8,36 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
+          flexWrap: 'wrap',
           marginBottom: rhythm(2),
+          flexDirection: 'column',
         }}
       >
         <img
           src={profilePic}
           alt={`Arvin Mostafaei`}
           style={{
-            marginRight: rhythm(1),
-            marginBottom: rhythm(1),
-            width: rhythm(6),
-            height: rhythm(6),
+            marginRight: rhythm(1 / 2),
+            marginBottom: rhythm(0),
+            width: rhythm(8),
+            height: rhythm(8),
             borderRadius: '50%',
+            margin: 'auto',
+            justifycontent: 'center',
+            display: 'flex',
+            flexDirection: 'column'
           }}
         />
         <p style={{ 
           maxWidth: 410,
-          marginTop: rhythm(2),
-          fontSize: rhythm(0.7)
+          justifycontent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+          margin: 'auto',
+          fontSize: rhythm(0.8),
+          marginTop: rhythm(1),
+          marginBottom: rhythm(2.5),
+          fontFamily: 'Montserrat, sans-serif'
         }}>
           Personal blog by{' '}
           <a href="https://arvin.vercel.app">Arvin Mostafaei</a>.{' '}
