@@ -42,8 +42,10 @@ class Bio extends React.Component {
           }}
         >
           Personal blog by{' '}
-          <a href="https://arvin.vercel.app">Arvin Mostafaei</a>. I&nbsp;explain
-          with words and code.
+          <a href="https://arvin.vercel.app" target="_blank">
+            Arvin Mostafaei
+          </a>
+          . I&nbsp;explain with words and code.
         </p>
       </div>
     );
