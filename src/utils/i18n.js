@@ -52,6 +52,7 @@ export const loadFontsForCode = code => {
       import('../fonts/fonts-post.vietnamese.css');
       break;
     case 'fa':
+    case 'ku':
       import('../fonts/fonts-post.persian.css');
       break;
     case 'ar':
