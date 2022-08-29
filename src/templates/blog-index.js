@@ -24,7 +24,7 @@ class BlogIndexTemplate extends React.Component {
           <Bio />
         </aside>
         <main>
-          {langKey !== 'en' && langKey !== 'ru' && (
+          {langKey !== 'en' && langKey !== 'ku' && (
             <Panel>
               These articles have been{' '}
               <a
