@@ -27,15 +27,15 @@ class Translations extends React.Component {
   render() {
     let { translations, lang, languageLink, editUrl } = this.props;
 
-    let readerTranslations = translations.filter(lang => lang !== 'ru');
-    let hasRussianTranslation = translations.indexOf('ru') !== -1;
+    let readerTranslations = translations.filter(lang => lang !== 'ku');
+    let hasKurdishTranslation = translations.indexOf('ku') !== -1;
 
     return (
       <div className="translations">
         <Panel style={{ fontFamily: systemFont }}>
           {translations.length > 0 && (
             <span>
-              {hasRussianTranslation && (
+              {hasKurdishTranslation && (
                 <span>
                   Originally written in:{' '}
                   {'en' === lang ? (
@@ -44,11 +44,11 @@ class Translations extends React.Component {
                     <Link to={languageLink('en')}>English</Link>
                   )}
                   {' • '}
-                  {'ru' === lang ? (
-                    <b>Русский (авторский перевод)</b>
+                  {'ku' === lang ? (
+                    <b>کوردی (وەرگێڕانی نووسەر)</b>
                   ) : (
-                    <Link to={languageLink('ru')}>
-                      Русский (авторский перевод)
+                    <Link to={languageLink('ku')}>
+                      کوردی (وەرگێڕانی نووسەر)
                     </Link>
                   )}
                   <br />
@@ -72,7 +72,7 @@ class Translations extends React.Component {
             <div>
               <br />
               <br />
-              {lang !== 'ru' && (
+              {lang !== 'ku' && (
                 <div>
                   <Link to={languageLink('en')}>Read the original</Link>
                   {' • '}
